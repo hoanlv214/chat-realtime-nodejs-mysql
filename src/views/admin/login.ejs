@@ -1,0 +1,17 @@
+<h1>Login</h1>
+<% if (messages.error) { %>
+  <%= messages.error %>
+<% } %>
+<form action="/admin/login" method="POST">
+  <div>
+    <label>Email</label>
+    <input name="phoneuser" required>
+  </div>
+  <div>
+    <label >Email</label>
+    <input  name="password" required>
+  </div>
+ 
+  <button type="submit">Login</button>
+</form>
+<a href="/admin/register">Register</a>
