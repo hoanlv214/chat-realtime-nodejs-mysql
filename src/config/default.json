@@ -1,0 +1,19 @@
+{
+    "elasticsearch": {
+        "url": "http://localhost:",
+        "port": 9200,
+        "elasticsearchIndices": {
+            "USER": {
+                "index": "user",
+                "type": "USER",
+                "colectionName": "user"
+            },
+            "POST": {
+                "index": "post",
+                "type": "POST",
+                "colectionName": "post"
+            }
+        }
+    },
+    "application_serverport": 3001
+}

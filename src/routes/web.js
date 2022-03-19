@@ -169,9 +169,9 @@ let initWebRouter = function (app) {
   }
 
 
-  var port = 3001;
-  server.listen(port, function () {
-    console.log("Listening to port " + port);
+  const PORT = process.env.PORT || 3001;
+  server.listen(PORT, () => {
+    console.log(`Listening to port ${PORT}`);
   });
 
 }
